@@ -17,7 +17,7 @@ const $completed = document.getElementById('completed');
 
 // render 이벤트 헨들러
 const renderAll = () => {
-
+    //스프레드문법
     let newTodo = [...todos];
 
     // active / completed 설정
